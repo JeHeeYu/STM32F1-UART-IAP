@@ -59,7 +59,8 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 
 /* USER CODE BEGIN Private defines */
-
+extern UART_HandleTypeDef UartHandle;
+extern uint8_t timerTick;
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
